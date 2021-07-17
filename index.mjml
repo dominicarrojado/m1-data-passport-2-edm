@@ -1,0 +1,803 @@
+<mjml>
+  <mj-head>
+    <mj-title> M1 Data Passport 2 - Dominic Arrojado </mj-title>
+
+    <!-- START of Global Attributes -->
+    <mj-breakpoint width="800px" />
+    <mj-attributes>
+      <mj-all padding="0" font-family="Arial" line-height="1.4" />
+    </mj-attributes>
+    <!-- END of Global Attributes -->
+
+    <!-- START of Inline Style Overrides -->
+    <!-- prettier-ignore -->
+    <mj-style inline="inline">
+      .btn-text-sm,
+      .btn-text-md {
+        display: inline;
+        margin: 0;
+        background: transparent;
+        color: #f57002;
+        font-family: Arial;
+        line-height: 1.4;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      .btn-text-md {
+        font-size: 16px;
+      }
+
+      .btn-text-sm {
+        font-size: 12px;
+      }
+    </mj-style>
+    <!-- END of Inline Style Overrides -->
+
+    <!-- START of Internal/Mobile Styles -->
+    <!-- prettier-ignore -->
+    <mj-style>
+      .btn-text-hover a:hover,
+      a.btn-text-hover:hover {
+        cursor: pointer !important;
+        text-decoration: none !important;
+      }
+
+      @media only screen and (max-width: 799px) {
+        .mobile-hide {
+          display: none !important;
+        }
+
+        .mobile-center,
+        .mobile-center > div {
+          text-align: center !important;
+        }
+
+        .mobile-center > table {
+          margin: 0 auto !important;
+        }
+
+        .place-info > table > tbody > tr > td {
+          padding-right: 0 !important;
+          padding-left: 0 !important;
+        }
+      }
+    </mj-style>
+    <!-- END of Internal/Mobile Styles -->
+
+    <mj-raw>
+      <!-- START of Google Tag Manager -->
+      <script>
+        if (window.location.hostname !== "localhost") {
+          (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+            var f = d.getElementsByTagName(s)[0],
+              j = d.createElement(s),
+              dl = l != "dataLayer" ? "&l=" + l : "";
+            j.async = true;
+            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+            f.parentNode.insertBefore(j, f);
+          })(window, document, "script", "dataLayer", "GTM-TSMLTPT");
+        }
+      </script>
+      <!-- END of Google Tag Manager -->
+
+      <link rel="icon" href="https://dominicarrojado.com/favicon.ico" />
+      <meta name="theme-color" content="#d7e1e9" />
+      <meta
+        name="description"
+        content="Email template for M1 Data Passport 2"
+      />
+      <link
+        rel="canonical"
+        href="https://dominicarrojado.com/m1-data-passport-2-edm/"
+      />
+      <meta property="og:locale" content="en_US" />
+      <meta property="og:type" content="website" />
+      <meta
+        property="og:title"
+        content="M1 Data Passport 2 - Dominic Arrojado"
+      />
+      <meta
+        property="og:description"
+        content="Email template for M1 Data Passport 2"
+      />
+      <meta
+        property="og:url"
+        content="https://dominicarrojado.com/m1-data-passport-2-edm/"
+      />
+      <meta
+        property="og:site_name"
+        content="M1 Data Passport 2 - Dominic Arrojado"
+      />
+      <meta
+        property="og:image"
+        content="https://dominicarrojado.com/m1-data-passport-2-edm/images/m1-data-passport-2-screenshot.png"
+      />
+      <meta
+        property="og:image:secure_url"
+        content="https://dominicarrojado.com/m1-data-passport-2-edm/images/m1-data-passport-2-screenshot.png"
+      />
+      <meta property="og:image:width" content="2880" />
+      <meta property="og:image:height" content="1800" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta
+        name="twitter:description"
+        content="Email template for M1 Data Passport 2"
+      />
+      <meta
+        name="twitter:title"
+        content="M1 Data Passport 2 - Dominic Arrojado"
+      />
+      <meta
+        name="twitter:image"
+        content="https://dominicarrojado.com/m1-data-passport-2-edm/images/m1-data-passport-2-screenshot.png"
+      />
+    </mj-raw>
+  </mj-head>
+  <mj-body width="800px" background-color="#f6f6f6">
+    <mj-wrapper background-url="images/bg.png" background-color="#55a0ce">
+      <!-- START of Hero Image -->
+      <mj-section>
+        <mj-group>
+          <mj-column width="100%">
+            <mj-image
+              href="https://www.m1.com.sg/Mobile/mobile-add-ons/Roaming/data-passport"
+              rel="noopener noreferrer nofollow"
+              src="images/banner-m1-data-passport-best-resorts.png"
+              alt="M1 Data PassPort - Best Resorts For A Family Vacation"
+            />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- END of Hero Image -->
+
+      <!-- START of Introduction -->
+      <mj-section padding="20px 15px 0">
+        <mj-group>
+          <mj-column width="100%">
+            <mj-text
+              align="center"
+              color="#ffffff"
+              font-size="20px"
+              font-weight="bold"
+            >
+              Make memories that will last a lifetime
+              <br class="mobile-hide" />this coming holiday season by taking
+              your loved ones <br class="mobile-hide" />to the best
+              family-friendly resorts in the world.
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- START of Introduction -->
+
+      <!-- START of Drops -->
+      <mj-section padding-top="25px">
+        <mj-group>
+          <mj-column width="100%">
+            <mj-image src="images/drops.png" alt="Drops" />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- END of Drops -->
+
+      <!-- START of Aulani -->
+      <mj-section padding="30px 50px 0">
+        <mj-column width="45%" padding-bottom="20px">
+          <mj-image
+            css-class="mobile-center"
+            src="images/picture-aulani.png"
+            alt="A picture of Aulani, A Disney Resort &amp; Spa, Oahu, Hawaii"
+            align="right"
+            width="270px"
+          />
+        </mj-column>
+        <mj-column css-class="place-info" width="55%" padding="0 35px">
+          <mj-text
+            css-class="mobile-center"
+            color="#ffffff"
+            font-size="24px"
+            font-weight="bold"
+            line-height="1.2"
+            text-transform="uppercase"
+          >
+            Aulani, A Disney <br class="mobile-hide" />Resort &amp; Spa
+          </mj-text>
+          <mj-text
+            css-class="mobile-center"
+            color="#bfe1e4"
+            font-size="24px"
+            font-weight="bold"
+            line-height="1.2"
+          >
+            Oahu, Hawaii
+          </mj-text>
+          <mj-text
+            css-class="mobile-center"
+            padding-top="10px"
+            color="#ffffff"
+            font-size="18px"
+          >
+            One of the most famous family resorts in Hawaii, Aulani, A Disney
+            Resort &amp; Spa offers everything from Disney characters roaming
+            the grounds to a sparkling pool and much more.
+          </mj-text>
+          <mj-image
+            css-class="mobile-center"
+            align="left"
+            padding-top="20px"
+            src="images/squiggly-line-short.png"
+            alt="Short squiggly line"
+            width="306px"
+          />
+        </mj-column>
+      </mj-section>
+      <!-- END of Aulani -->
+
+      <!-- START of Four Seasons Resort -->
+      <mj-section padding="40px 15px 0">
+        <mj-column width="45%" padding-bottom="20px">
+          <mj-image
+            css-class="mobile-center"
+            src="images/picture-four-seasons-resort.png"
+            alt="A picture of Four Seasons Resort, Langkawi, Malaysia"
+            align="right"
+            width="270px"
+          />
+        </mj-column>
+        <mj-column css-class="place-info" width="55%" padding="0 35px">
+          <mj-text
+            css-class="mobile-center"
+            color="#ffffff"
+            font-size="24px"
+            font-weight="bold"
+            line-height="1.2"
+            text-transform="uppercase"
+          >
+            Four Seasons <br class="mobile-hide" />Resort
+          </mj-text>
+          <mj-text
+            css-class="mobile-center"
+            color="#bfe1e4"
+            font-size="24px"
+            font-weight="bold"
+            line-height="1.2"
+          >
+            Langkawi, Malaysia
+          </mj-text>
+          <mj-text
+            css-class="mobile-center"
+            padding-top="10px"
+            color="#ffffff"
+            font-size="18px"
+          >
+            Striking the perfect balance in entertainment, the Four Seasons
+            Resort Langkawi has plenty of activities for each member of your
+            family.
+          </mj-text>
+          <mj-image
+            css-class="mobile-center"
+            align="left"
+            padding-top="20px"
+            src="images/squiggly-line-short.png"
+            alt="Short squiggly line"
+            width="306px"
+          />
+        </mj-column>
+      </mj-section>
+      <!-- END of Four Seasons Resort -->
+
+      <!-- START of Pine Cliffs Resort -->
+      <mj-section padding="40px 15px 0">
+        <mj-column width="45%" padding-bottom="20px">
+          <mj-image
+            css-class="mobile-center"
+            src="images/picture-pine-cliffs-resort.png"
+            alt="A picture of Pine Cliffs Resort, Albufeira, Algarve, Portugal"
+            align="right"
+            width="270px"
+          />
+        </mj-column>
+        <mj-column css-class="place-info" width="55%" padding="0 35px">
+          <mj-text
+            css-class="mobile-center"
+            color="#ffffff"
+            font-size="24px"
+            font-weight="bold"
+            line-height="1.2"
+            text-transform="uppercase"
+          >
+            Pine Cliffs Resort
+          </mj-text>
+          <mj-text
+            css-class="mobile-center"
+            color="#bfe1e4"
+            font-size="24px"
+            font-weight="bold"
+            line-height="1.2"
+          >
+            Albufeira, Algarve, <br class="mobile-hide" />Portugal
+          </mj-text>
+          <mj-text
+            css-class="mobile-center"
+            padding-top="10px"
+            color="#ffffff"
+            font-size="18px"
+          >
+            An award-winning luxury and family resort in Europe, Pine Cliffs is
+            a hidden gem that's perfect for a memorable family vacation.
+          </mj-text>
+          <mj-image
+            css-class="mobile-center"
+            align="left"
+            padding-top="20px"
+            src="images/squiggly-line-short.png"
+            alt="Short squiggly line"
+            width="306px"
+          />
+        </mj-column>
+      </mj-section>
+      <!-- END of Pine Cliffs Resort -->
+
+      <!-- START of Sani Beach Club -->
+      <mj-section padding="40px 15px 0">
+        <mj-column width="45%" padding-bottom="20px">
+          <mj-image
+            css-class="mobile-center"
+            src="images/picture-sani-beach-club.png"
+            alt="A picture of Sani Beach Club, Halkidiki, Greece"
+            align="right"
+            width="270px"
+          />
+        </mj-column>
+        <mj-column css-class="place-info" width="55%" padding="0 35px">
+          <mj-text
+            css-class="mobile-center"
+            color="#ffffff"
+            font-size="24px"
+            font-weight="bold"
+            line-height="1.2"
+            text-transform="uppercase"
+          >
+            Sani Beach Club
+          </mj-text>
+          <mj-text
+            css-class="mobile-center"
+            color="#bfe1e4"
+            font-size="24px"
+            font-weight="bold"
+            line-height="1.2"
+          >
+            Halkidiki, Greece
+          </mj-text>
+          <mj-text
+            css-class="mobile-center"
+            padding-top="10px"
+            color="#ffffff"
+            font-size="18px"
+          >
+            Experience idyllic white sand beaches and relax in the world-class
+            spa, as your little ones play at the nursery and mini club, Sani
+            Beach Club located in Haldiki, Greece has everything your family
+            needs to unwind.
+          </mj-text>
+          <mj-image
+            css-class="mobile-center"
+            align="left"
+            padding-top="20px"
+            src="images/squiggly-line-short.png"
+            alt="Short squiggly line"
+            width="306px"
+          />
+        </mj-column>
+      </mj-section>
+      <!-- END of Sani Beach Club -->
+
+      <!-- START of Le Mouillage -->
+      <mj-section padding="40px 15px 0">
+        <mj-column width="45%" padding-bottom="20px">
+          <mj-image
+            css-class="mobile-center"
+            src="images/picture-le-mouillage.png"
+            alt="A picture of Le Mouillage, St. Tropez, Côte d'Azur, France"
+            align="right"
+            width="270px"
+          />
+        </mj-column>
+        <mj-column css-class="place-info" width="55%" padding="0 35px">
+          <mj-text
+            css-class="mobile-center"
+            color="#ffffff"
+            font-size="24px"
+            font-weight="bold"
+            line-height="1.2"
+            text-transform="uppercase"
+          >
+            Le Mouillage
+          </mj-text>
+          <mj-text
+            css-class="mobile-center"
+            color="#bfe1e4"
+            font-size="24px"
+            font-weight="bold"
+            line-height="1.2"
+          >
+            St. Tropez, Côte d'Azur, France
+          </mj-text>
+          <mj-text
+            css-class="mobile-center"
+            padding-top="10px"
+            color="#ffffff"
+            font-size="18px"
+          >
+            Discover the spellbinding charm of St. Tropez at the lovely Le
+            Mouillage, featuring a first-class private pool and plenty of
+            outdoor space for fun, memorable family experience.
+          </mj-text>
+          <mj-image
+            css-class="mobile-center"
+            align="left"
+            padding-top="20px"
+            src="images/squiggly-line-short.png"
+            alt="Short squiggly line"
+            width="306px"
+          />
+        </mj-column>
+      </mj-section>
+      <!-- END of Le Mouillage -->
+
+      <!-- START of Olympos Lodge -->
+      <mj-section padding="40px 15px 0">
+        <mj-column width="45%" padding-bottom="20px">
+          <mj-image
+            css-class="mobile-center"
+            src="images/picture-olympos-lodge.png"
+            alt="A picture of Olympos Lodge, Antalya, Turquoise Coast, Turkey"
+            align="right"
+            width="270px"
+          />
+        </mj-column>
+        <mj-column css-class="place-info" width="55%" padding="0 35px">
+          <mj-text
+            css-class="mobile-center"
+            color="#ffffff"
+            font-size="24px"
+            font-weight="bold"
+            line-height="1.2"
+            text-transform="uppercase"
+          >
+            Olympos Lodge
+          </mj-text>
+          <mj-text
+            css-class="mobile-center"
+            color="#bfe1e4"
+            font-size="24px"
+            font-weight="bold"
+            line-height="1.2"
+          >
+            Antalya, Turquoise Coast, Turkey
+          </mj-text>
+          <mj-text
+            css-class="mobile-center"
+            padding-top="10px"
+            color="#ffffff"
+            font-size="18px"
+          >
+            Ideal for an intimate family getaway, the lush, landscaped gardens
+            of the Olympus Lodge's luxury bungalow complex is located well away
+            from road traffic. It features beautiful beaches and seaside
+            restaurants your family can explore, relax and unwind.
+          </mj-text>
+          <mj-image
+            css-class="mobile-center"
+            align="left"
+            padding-top="20px"
+            src="images/squiggly-line-short.png"
+            alt="Short squiggly line"
+            width="306px"
+          />
+        </mj-column>
+      </mj-section>
+      <!-- END of Olympos Lodge -->
+
+      <!-- START of Gasparilla Inn -->
+      <mj-section padding="40px 15px 0">
+        <mj-column width="45%" padding-bottom="20px">
+          <mj-image
+            css-class="mobile-center"
+            src="images/picture-gasparilla-inn.png"
+            alt="A picture of Gasparilla Inn, Boca Grande, Floria"
+            align="right"
+            width="270px"
+          />
+        </mj-column>
+        <mj-column css-class="place-info" width="55%" padding="0 35px">
+          <mj-text
+            css-class="mobile-center"
+            color="#ffffff"
+            font-size="24px"
+            font-weight="bold"
+            line-height="1.2"
+            text-transform="uppercase"
+          >
+            Gasparilla Inn
+          </mj-text>
+          <mj-text
+            css-class="mobile-center"
+            color="#bfe1e4"
+            font-size="24px"
+            font-weight="bold"
+            line-height="1.2"
+          >
+            Boca Grande, Floria
+          </mj-text>
+          <mj-text
+            css-class="mobile-center"
+            padding-top="10px"
+            color="#ffffff"
+            font-size="18px"
+          >
+            The Gasparilla Inn is an incredible resort that offers a wide range
+            of activities your whole family will enjoy. Let little ones enjoy
+            endless beach games, laser tag, and sand castle contests, while
+            grownups take to the sprawling championships golf course.
+          </mj-text>
+          <mj-image
+            css-class="mobile-center"
+            align="left"
+            padding-top="20px"
+            src="images/squiggly-line-short.png"
+            alt="Short squiggly line"
+            width="306px"
+          />
+        </mj-column>
+      </mj-section>
+      <!-- END of Gasparilla Inn -->
+
+      <!-- START of Discover Shores -->
+      <mj-section padding="40px 15px 0">
+        <mj-column width="45%" padding-bottom="20px">
+          <mj-image
+            css-class="mobile-center"
+            src="images/picture-discover-shores.png"
+            alt="A picture of Discover Shores, Boracay, Philippines"
+            align="right"
+            width="270px"
+          />
+        </mj-column>
+        <mj-column css-class="place-info" width="55%" padding="0 35px">
+          <mj-text
+            css-class="mobile-center"
+            color="#ffffff"
+            font-size="24px"
+            font-weight="bold"
+            line-height="1.2"
+            text-transform="uppercase"
+          >
+            Discover Shores
+          </mj-text>
+          <mj-text
+            css-class="mobile-center"
+            color="#bfe1e4"
+            font-size="24px"
+            font-weight="bold"
+            line-height="1.2"
+          >
+            Boracay, Philippines
+          </mj-text>
+          <mj-text
+            css-class="mobile-center"
+            padding-top="10px"
+            color="#ffffff"
+            font-size="18px"
+          >
+            As a winner of Travel + Leisure World's Best Award for Top Hotel for
+            Families in Asia, Discover Shores is one of the best options for a
+            fun, memorable and excellent family vacation located in one of the
+            most famous islands in the Philippines, Boracay.
+          </mj-text>
+          <mj-image
+            css-class="mobile-center"
+            align="left"
+            padding-top="20px"
+            src="images/squiggly-line-short.png"
+            alt="Short squiggly line"
+            width="306px"
+          />
+        </mj-column>
+      </mj-section>
+      <!-- END of Discover Shores -->
+
+      <!-- START of Squiggly Lines -->
+      <mj-section padding-top="40px">
+        <mj-group>
+          <mj-column width="100%">
+            <mj-image
+              src="images/squiggly-line-long.png"
+              alt="Long squiggly line"
+            />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- END of Squiggly Lines -->
+    </mj-wrapper>
+
+    <!-- START of Footer -->
+    <mj-wrapper background-color="#ffffff" padding="40px 0 50px">
+      <!-- START of Footer Title -->
+      <mj-section padding="0 15px">
+        <mj-group>
+          <mj-column width="100%">
+            <mj-text
+              align="center"
+              color="#f57002"
+              font-size="25px"
+              font-weight="bold"
+              line-height="1.2"
+              text-transform="uppercase"
+            >
+              A family getaway isn't complete <br class="mobile-hide" />without
+              creating wonderful memories.
+            </mj-text>
+            <mj-text
+              padding-top="10px"
+              align="center"
+              color="#555555"
+              font-size="16px"
+            >
+              Share your favourite bonding moments by subscribing with
+              <a
+                href="https://www.m1.com.sg/Mobile/mobile-add-ons/Roaming/data-passport"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                class="btn-text-md btn-text-hover"
+                >M1 Data Passport</a
+              >. <br class="mobile-hide" />Now available in 56 destinations
+              across Asia, Europe and the United States of America
+              <br class="mobile-hide" />with monthly subscription from $10 per
+              destination. Now, you can use mobile data just as
+              <br class="mobile-hide" />you would in Singapore.
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- END of Footer Title -->
+
+      <!-- START of Benefits -->
+      <mj-section padding="30px 50px 0">
+        <mj-column width="25%" padding-bottom="30px">
+          <mj-image
+            align="center"
+            src="images/icon-phone-check.png"
+            alt="Hand holding smartphone displaying check icon"
+            width="100px"
+          />
+          <mj-text
+            padding-top="15px"
+            align="center"
+            color="#333333"
+            font-size="14px"
+            font-weight="bold"
+            line-height="1.2"
+            text-transform="uppercase"
+          >
+            Easy activation before or during your trip
+          </mj-text>
+        </mj-column>
+        <mj-column width="25%" padding-bottom="30px">
+          <mj-image
+            align="center"
+            src="images/icon-phone-m1.png"
+            alt="Hand holding smartphone displaying M1 logo"
+            width="100px"
+          />
+          <mj-text
+            padding-top="15px"
+            align="center"
+            color="#333333"
+            font-size="14px"
+            font-weight="bold"
+            line-height="1.2"
+            text-transform="uppercase"
+          >
+            No bill shock <br class="mobile-hide" />with
+            <br class="mobile-hide" />network lock
+          </mj-text>
+        </mj-column>
+        <mj-column width="25%" padding-bottom="30px">
+          <mj-image
+            align="center"
+            src="images/icon-lock.png"
+            alt="Lock icon"
+            width="100px"
+          />
+          <mj-text
+            padding-top="15px"
+            align="center"
+            color="#333333"
+            font-size="14px"
+            font-weight="bold"
+            line-height="1.2"
+            text-transform="uppercase"
+          >
+            Keep track <br class="mobile-hide" />of data
+            <br class="mobile-hide" />passport usage
+          </mj-text>
+        </mj-column>
+        <mj-column width="25%" padding-bottom="30px">
+          <mj-image
+            align="center"
+            src="images/icon-people.png"
+            alt="3 people standing in line"
+            width="100px"
+          />
+          <mj-text
+            padding-top="15px"
+            align="center"
+            color="#333333"
+            font-size="14px"
+            font-weight="bold"
+            line-height="1.2"
+            text-transform="uppercase"
+          >
+            No standing <br class="mobile-hide" />in line
+            <br class="mobile-hide" />for local sim
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- END of Benefits -->
+
+      <!-- START of Subscribe Now -->
+      <mj-section padding="25px 15px 0">
+        <mj-group>
+          <mj-column width="100%">
+            <mj-image
+              href="https://web.m1.com.sg/dpp"
+              rel="noopener noreferrer nofollow"
+              src="images/btn-subscribe-now.png"
+              alt="Subscribe Now"
+              width="538px"
+            />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- END of Subscribe Now -->
+
+      <!-- START of Unsubscribe -->
+      <mj-section padding="30px 15px 0">
+        <mj-group>
+          <mj-column width="100%">
+            <mj-text align="center" color="#333333" font-size="12px">
+              If you wish to unsubscribe from our mailing list,
+              <a
+                href="https://www.m1.com.sg/mma"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                class="btn-text-sm btn-text-hover"
+                >click here</a
+              >
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- END of Unsubscribe -->
+    </mj-wrapper>
+    <!-- END of Footer -->
+
+    <mj-raw>
+      <!-- START of Google Tag Manager (noscript) -->
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-TSMLTPT"
+          height="0"
+          width="0"
+          style="display: none; visibility: hidden"
+        >
+        </iframe>
+      </noscript>
+      <!-- END of Google Tag Manager (noscript) -->
+    </mj-raw>
+  </mj-body>
+</mjml>
