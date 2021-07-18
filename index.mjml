@@ -6,6 +6,67 @@
     <mj-breakpoint width="800px" />
     <mj-attributes>
       <mj-all padding="0" font-family="Arial" line-height="1.4" />
+
+      <mj-class name="place" padding="40px 15px 0" />
+      <mj-class name="place-img-container" width="45%" padding-bottom="20px" />
+      <mj-class
+        name="place-img"
+        css-class="mobile-center"
+        align="right"
+        width="270px"
+      />
+      <mj-class
+        name="place-info"
+        css-class="mobile-padding-x-0"
+        width="55%"
+        padding="0 35px"
+      />
+      <mj-class
+        name="place-location"
+        css-class="mobile-center"
+        color="#bfe1e4"
+        font-size="24px"
+        font-weight="bold"
+        line-height="1.2"
+      />
+      <mj-class
+        name="place-title"
+        css-class="mobile-center"
+        color="#ffffff"
+        font-size="24px"
+        font-weight="bold"
+        line-height="1.2"
+        text-transform="uppercase"
+      />
+      <mj-class
+        name="place-desc"
+        css-class="mobile-center"
+        padding-top="10px"
+        color="#ffffff"
+        font-size="18px"
+      />
+      <mj-class
+        name="place-divider"
+        css-class="mobile-center"
+        align="left"
+        padding-top="20px"
+        src="images/squiggly-line-short.png"
+        alt="Short squiggly line"
+        width="306px"
+      />
+
+      <mj-class name="benefit" width="25%" padding-top="30px" />
+      <mj-class name="benefit-icon" align="center" width="100px" />
+      <mj-class
+        name="benefit-title"
+        padding-top="15px"
+        align="center"
+        color="#333333"
+        font-size="14px"
+        font-weight="bold"
+        line-height="1.2"
+        text-transform="uppercase"
+      />
     </mj-attributes>
     <!-- END of Global Attributes -->
 
@@ -57,7 +118,7 @@
           margin: 0 auto !important;
         }
 
-        .place-info > table > tbody > tr > td {
+        .mobile-padding-x-0 > table > tbody > tr > td {
           padding-right: 0 !important;
           padding-left: 0 !important;
         }
@@ -184,428 +245,190 @@
       <!-- END of Drops -->
 
       <!-- START of Aulani -->
-      <mj-section padding="30px 50px 0">
-        <mj-column width="45%" padding-bottom="20px">
+      <mj-section mj-class="place">
+        <mj-column mj-class="place-img-container">
           <mj-image
-            css-class="mobile-center"
+            mj-class="place-img"
             src="images/picture-aulani.png"
             alt="A picture of Aulani, A Disney Resort &amp; Spa, Oahu, Hawaii"
-            align="right"
-            width="270px"
           />
         </mj-column>
-        <mj-column css-class="place-info" width="55%" padding="0 35px">
-          <mj-text
-            css-class="mobile-center"
-            color="#ffffff"
-            font-size="24px"
-            font-weight="bold"
-            line-height="1.2"
-            text-transform="uppercase"
-          >
+        <mj-column mj-class="place-info">
+          <mj-text mj-class="place-title">
             Aulani, A Disney <br class="mobile-hide" />Resort &amp; Spa
           </mj-text>
-          <mj-text
-            css-class="mobile-center"
-            color="#bfe1e4"
-            font-size="24px"
-            font-weight="bold"
-            line-height="1.2"
-          >
-            Oahu, Hawaii
-          </mj-text>
-          <mj-text
-            css-class="mobile-center"
-            padding-top="10px"
-            color="#ffffff"
-            font-size="18px"
-          >
+          <mj-text mj-class="place-location"> Oahu, Hawaii </mj-text>
+          <mj-text mj-class="place-desc">
             One of the most famous family resorts in Hawaii, Aulani, A Disney
             Resort &amp; Spa offers everything from Disney characters roaming
             the grounds to a sparkling pool and much more.
           </mj-text>
-          <mj-image
-            css-class="mobile-center"
-            align="left"
-            padding-top="20px"
-            src="images/squiggly-line-short.png"
-            alt="Short squiggly line"
-            width="306px"
-          />
+          <mj-image mj-class="place-divider" />
         </mj-column>
       </mj-section>
       <!-- END of Aulani -->
 
       <!-- START of Four Seasons Resort -->
-      <mj-section padding="40px 15px 0">
-        <mj-column width="45%" padding-bottom="20px">
+      <mj-section mj-class="place">
+        <mj-column mj-class="place-img-container">
           <mj-image
-            css-class="mobile-center"
+            mj-class="place-img"
             src="images/picture-four-seasons-resort.png"
             alt="A picture of Four Seasons Resort, Langkawi, Malaysia"
-            align="right"
-            width="270px"
           />
         </mj-column>
-        <mj-column css-class="place-info" width="55%" padding="0 35px">
-          <mj-text
-            css-class="mobile-center"
-            color="#ffffff"
-            font-size="24px"
-            font-weight="bold"
-            line-height="1.2"
-            text-transform="uppercase"
-          >
+        <mj-column mj-class="place-info">
+          <mj-text mj-class="place-title">
             Four Seasons <br class="mobile-hide" />Resort
           </mj-text>
-          <mj-text
-            css-class="mobile-center"
-            color="#bfe1e4"
-            font-size="24px"
-            font-weight="bold"
-            line-height="1.2"
-          >
-            Langkawi, Malaysia
-          </mj-text>
-          <mj-text
-            css-class="mobile-center"
-            padding-top="10px"
-            color="#ffffff"
-            font-size="18px"
-          >
+          <mj-text mj-class="place-location"> Langkawi, Malaysia </mj-text>
+          <mj-text mj-class="place-desc">
             Striking the perfect balance in entertainment, the Four Seasons
             Resort Langkawi has plenty of activities for each member of your
             family.
           </mj-text>
-          <mj-image
-            css-class="mobile-center"
-            align="left"
-            padding-top="20px"
-            src="images/squiggly-line-short.png"
-            alt="Short squiggly line"
-            width="306px"
-          />
+          <mj-image mj-class="place-divider" />
         </mj-column>
       </mj-section>
       <!-- END of Four Seasons Resort -->
 
       <!-- START of Pine Cliffs Resort -->
-      <mj-section padding="40px 15px 0">
-        <mj-column width="45%" padding-bottom="20px">
+      <mj-section mj-class="place">
+        <mj-column mj-class="place-img-container">
           <mj-image
-            css-class="mobile-center"
+            mj-class="place-img"
             src="images/picture-pine-cliffs-resort.png"
             alt="A picture of Pine Cliffs Resort, Albufeira, Algarve, Portugal"
-            align="right"
-            width="270px"
           />
         </mj-column>
-        <mj-column css-class="place-info" width="55%" padding="0 35px">
-          <mj-text
-            css-class="mobile-center"
-            color="#ffffff"
-            font-size="24px"
-            font-weight="bold"
-            line-height="1.2"
-            text-transform="uppercase"
-          >
-            Pine Cliffs Resort
-          </mj-text>
-          <mj-text
-            css-class="mobile-center"
-            color="#bfe1e4"
-            font-size="24px"
-            font-weight="bold"
-            line-height="1.2"
-          >
+        <mj-column mj-class="place-info">
+          <mj-text mj-class="place-title"> Pine Cliffs Resort </mj-text>
+          <mj-text mj-class="place-location">
             Albufeira, Algarve, <br class="mobile-hide" />Portugal
           </mj-text>
-          <mj-text
-            css-class="mobile-center"
-            padding-top="10px"
-            color="#ffffff"
-            font-size="18px"
-          >
+          <mj-text mj-class="place-desc">
             An award-winning luxury and family resort in Europe, Pine Cliffs is
             a hidden gem that's perfect for a memorable family vacation.
           </mj-text>
-          <mj-image
-            css-class="mobile-center"
-            align="left"
-            padding-top="20px"
-            src="images/squiggly-line-short.png"
-            alt="Short squiggly line"
-            width="306px"
-          />
+          <mj-image mj-class="place-divider" />
         </mj-column>
       </mj-section>
       <!-- END of Pine Cliffs Resort -->
 
       <!-- START of Sani Beach Club -->
-      <mj-section padding="40px 15px 0">
-        <mj-column width="45%" padding-bottom="20px">
+      <mj-section mj-class="place">
+        <mj-column mj-class="place-img-container">
           <mj-image
-            css-class="mobile-center"
+            mj-class="place-img"
             src="images/picture-sani-beach-club.png"
             alt="A picture of Sani Beach Club, Halkidiki, Greece"
-            align="right"
-            width="270px"
           />
         </mj-column>
-        <mj-column css-class="place-info" width="55%" padding="0 35px">
-          <mj-text
-            css-class="mobile-center"
-            color="#ffffff"
-            font-size="24px"
-            font-weight="bold"
-            line-height="1.2"
-            text-transform="uppercase"
-          >
-            Sani Beach Club
-          </mj-text>
-          <mj-text
-            css-class="mobile-center"
-            color="#bfe1e4"
-            font-size="24px"
-            font-weight="bold"
-            line-height="1.2"
-          >
-            Halkidiki, Greece
-          </mj-text>
-          <mj-text
-            css-class="mobile-center"
-            padding-top="10px"
-            color="#ffffff"
-            font-size="18px"
-          >
+        <mj-column mj-class="place-info">
+          <mj-text mj-class="place-title"> Sani Beach Club </mj-text>
+          <mj-text mj-class="place-location"> Halkidiki, Greece </mj-text>
+          <mj-text mj-class="place-desc">
             Experience idyllic white sand beaches and relax in the world-class
             spa, as your little ones play at the nursery and mini club, Sani
             Beach Club located in Haldiki, Greece has everything your family
             needs to unwind.
           </mj-text>
-          <mj-image
-            css-class="mobile-center"
-            align="left"
-            padding-top="20px"
-            src="images/squiggly-line-short.png"
-            alt="Short squiggly line"
-            width="306px"
-          />
+          <mj-image mj-class="place-divider" />
         </mj-column>
       </mj-section>
       <!-- END of Sani Beach Club -->
 
       <!-- START of Le Mouillage -->
-      <mj-section padding="40px 15px 0">
-        <mj-column width="45%" padding-bottom="20px">
+      <mj-section mj-class="place">
+        <mj-column mj-class="place-img-container">
           <mj-image
-            css-class="mobile-center"
+            mj-class="place-img"
             src="images/picture-le-mouillage.png"
             alt="A picture of Le Mouillage, St. Tropez, Côte d'Azur, France"
-            align="right"
-            width="270px"
           />
         </mj-column>
-        <mj-column css-class="place-info" width="55%" padding="0 35px">
-          <mj-text
-            css-class="mobile-center"
-            color="#ffffff"
-            font-size="24px"
-            font-weight="bold"
-            line-height="1.2"
-            text-transform="uppercase"
-          >
-            Le Mouillage
-          </mj-text>
-          <mj-text
-            css-class="mobile-center"
-            color="#bfe1e4"
-            font-size="24px"
-            font-weight="bold"
-            line-height="1.2"
-          >
+        <mj-column mj-class="place-info">
+          <mj-text mj-class="place-title"> Le Mouillage </mj-text>
+          <mj-text mj-class="place-location">
             St. Tropez, Côte d'Azur, France
           </mj-text>
-          <mj-text
-            css-class="mobile-center"
-            padding-top="10px"
-            color="#ffffff"
-            font-size="18px"
-          >
+          <mj-text mj-class="place-desc">
             Discover the spellbinding charm of St. Tropez at the lovely Le
             Mouillage, featuring a first-class private pool and plenty of
             outdoor space for fun, memorable family experience.
           </mj-text>
-          <mj-image
-            css-class="mobile-center"
-            align="left"
-            padding-top="20px"
-            src="images/squiggly-line-short.png"
-            alt="Short squiggly line"
-            width="306px"
-          />
+          <mj-image mj-class="place-divider" />
         </mj-column>
       </mj-section>
       <!-- END of Le Mouillage -->
 
       <!-- START of Olympos Lodge -->
-      <mj-section padding="40px 15px 0">
-        <mj-column width="45%" padding-bottom="20px">
+      <mj-section mj-class="place">
+        <mj-column mj-class="place-img-container">
           <mj-image
-            css-class="mobile-center"
+            mj-class="place-img"
             src="images/picture-olympos-lodge.png"
             alt="A picture of Olympos Lodge, Antalya, Turquoise Coast, Turkey"
-            align="right"
-            width="270px"
           />
         </mj-column>
-        <mj-column css-class="place-info" width="55%" padding="0 35px">
-          <mj-text
-            css-class="mobile-center"
-            color="#ffffff"
-            font-size="24px"
-            font-weight="bold"
-            line-height="1.2"
-            text-transform="uppercase"
-          >
-            Olympos Lodge
-          </mj-text>
-          <mj-text
-            css-class="mobile-center"
-            color="#bfe1e4"
-            font-size="24px"
-            font-weight="bold"
-            line-height="1.2"
-          >
+        <mj-column mj-class="place-info">
+          <mj-text mj-class="place-title"> Olympos Lodge </mj-text>
+          <mj-text mj-class="place-location">
             Antalya, Turquoise Coast, Turkey
           </mj-text>
-          <mj-text
-            css-class="mobile-center"
-            padding-top="10px"
-            color="#ffffff"
-            font-size="18px"
-          >
+          <mj-text mj-class="place-desc">
             Ideal for an intimate family getaway, the lush, landscaped gardens
             of the Olympus Lodge's luxury bungalow complex is located well away
             from road traffic. It features beautiful beaches and seaside
             restaurants your family can explore, relax and unwind.
           </mj-text>
-          <mj-image
-            css-class="mobile-center"
-            align="left"
-            padding-top="20px"
-            src="images/squiggly-line-short.png"
-            alt="Short squiggly line"
-            width="306px"
-          />
+          <mj-image mj-class="place-divider" />
         </mj-column>
       </mj-section>
       <!-- END of Olympos Lodge -->
 
       <!-- START of Gasparilla Inn -->
-      <mj-section padding="40px 15px 0">
-        <mj-column width="45%" padding-bottom="20px">
+      <mj-section mj-class="place">
+        <mj-column mj-class="place-img-container">
           <mj-image
-            css-class="mobile-center"
+            mj-class="place-img"
             src="images/picture-gasparilla-inn.png"
             alt="A picture of Gasparilla Inn, Boca Grande, Floria"
-            align="right"
-            width="270px"
           />
         </mj-column>
-        <mj-column css-class="place-info" width="55%" padding="0 35px">
-          <mj-text
-            css-class="mobile-center"
-            color="#ffffff"
-            font-size="24px"
-            font-weight="bold"
-            line-height="1.2"
-            text-transform="uppercase"
-          >
-            Gasparilla Inn
-          </mj-text>
-          <mj-text
-            css-class="mobile-center"
-            color="#bfe1e4"
-            font-size="24px"
-            font-weight="bold"
-            line-height="1.2"
-          >
-            Boca Grande, Floria
-          </mj-text>
-          <mj-text
-            css-class="mobile-center"
-            padding-top="10px"
-            color="#ffffff"
-            font-size="18px"
-          >
+        <mj-column mj-class="place-info">
+          <mj-text mj-class="place-title"> Gasparilla Inn </mj-text>
+          <mj-text mj-class="place-location"> Boca Grande, Floria </mj-text>
+          <mj-text mj-class="place-desc">
             The Gasparilla Inn is an incredible resort that offers a wide range
             of activities your whole family will enjoy. Let little ones enjoy
             endless beach games, laser tag, and sand castle contests, while
             grownups take to the sprawling championships golf course.
           </mj-text>
-          <mj-image
-            css-class="mobile-center"
-            align="left"
-            padding-top="20px"
-            src="images/squiggly-line-short.png"
-            alt="Short squiggly line"
-            width="306px"
-          />
+          <mj-image mj-class="place-divider" />
         </mj-column>
       </mj-section>
       <!-- END of Gasparilla Inn -->
 
       <!-- START of Discover Shores -->
-      <mj-section padding="40px 15px 0">
-        <mj-column width="45%" padding-bottom="20px">
+      <mj-section mj-class="place">
+        <mj-column mj-class="place-img-container">
           <mj-image
-            css-class="mobile-center"
+            mj-class="place-img"
             src="images/picture-discover-shores.png"
             alt="A picture of Discover Shores, Boracay, Philippines"
-            align="right"
-            width="270px"
           />
         </mj-column>
         <mj-column css-class="place-info" width="55%" padding="0 35px">
-          <mj-text
-            css-class="mobile-center"
-            color="#ffffff"
-            font-size="24px"
-            font-weight="bold"
-            line-height="1.2"
-            text-transform="uppercase"
-          >
-            Discover Shores
-          </mj-text>
-          <mj-text
-            css-class="mobile-center"
-            color="#bfe1e4"
-            font-size="24px"
-            font-weight="bold"
-            line-height="1.2"
-          >
-            Boracay, Philippines
-          </mj-text>
-          <mj-text
-            css-class="mobile-center"
-            padding-top="10px"
-            color="#ffffff"
-            font-size="18px"
-          >
+          <mj-text mj-class="place-title"> Discover Shores </mj-text>
+          <mj-text mj-class="place-location"> Boracay, Philippines </mj-text>
+          <mj-text mj-class="place-desc">
             As a winner of Travel + Leisure World's Best Award for Top Hotel for
             Families in Asia, Discover Shores is one of the best options for a
             fun, memorable and excellent family vacation located in one of the
             most famous islands in the Philippines, Boracay.
           </mj-text>
-          <mj-image
-            css-class="mobile-center"
-            align="left"
-            padding-top="20px"
-            src="images/squiggly-line-short.png"
-            alt="Short squiggly line"
-            width="306px"
-          />
+          <mj-image mj-class="place-divider" />
         </mj-column>
       </mj-section>
       <!-- END of Discover Shores -->
@@ -666,82 +489,46 @@
       <!-- END of Footer Title -->
 
       <!-- START of Benefits -->
-      <mj-section padding="30px 50px 0">
-        <mj-column width="25%" padding-bottom="30px">
+      <mj-section padding="0 50px">
+        <mj-column mj-class="benefit">
           <mj-image
-            align="center"
+            mj-class="benefit-icon"
             src="images/icon-phone-check.png"
             alt="Hand holding smartphone displaying check icon"
-            width="100px"
           />
-          <mj-text
-            padding-top="15px"
-            align="center"
-            color="#333333"
-            font-size="14px"
-            font-weight="bold"
-            line-height="1.2"
-            text-transform="uppercase"
-          >
+          <mj-text mj-class="benefit-title">
             Easy activation before or during your trip
           </mj-text>
         </mj-column>
-        <mj-column width="25%" padding-bottom="30px">
+        <mj-column mj-class="benefit">
           <mj-image
-            align="center"
-            src="images/icon-phone-m1.png"
-            alt="Hand holding smartphone displaying M1 logo"
-            width="100px"
+            mj-class="benefit-icon"
+            src="images/icon-lock.png"
+            alt="Lock icon"
           />
-          <mj-text
-            padding-top="15px"
-            align="center"
-            color="#333333"
-            font-size="14px"
-            font-weight="bold"
-            line-height="1.2"
-            text-transform="uppercase"
-          >
+          <mj-text mj-class="benefit-title">
             No bill shock <br class="mobile-hide" />with
             <br class="mobile-hide" />network lock
           </mj-text>
         </mj-column>
-        <mj-column width="25%" padding-bottom="30px">
+        <mj-column mj-class="benefit">
           <mj-image
-            align="center"
-            src="images/icon-lock.png"
-            alt="Lock icon"
-            width="100px"
+            mj-class="benefit-icon"
+            src="images/icon-phone-m1.png"
+            alt="Hand holding smartphone displaying M1 logo"
           />
-          <mj-text
-            padding-top="15px"
-            align="center"
-            color="#333333"
-            font-size="14px"
-            font-weight="bold"
-            line-height="1.2"
-            text-transform="uppercase"
-          >
+          <mj-text mj-class="benefit-title">
             Keep track <br class="mobile-hide" />of data
             <br class="mobile-hide" />passport usage
           </mj-text>
         </mj-column>
-        <mj-column width="25%" padding-bottom="30px">
+        <mj-column mj-class="benefit">
           <mj-image
-            align="center"
+            mj-class="benefit-icon"
             src="images/icon-people.png"
             alt="3 people standing in line"
-            width="100px"
           />
-          <mj-text
-            padding-top="15px"
-            align="center"
-            color="#333333"
-            font-size="14px"
-            font-weight="bold"
-            line-height="1.2"
-            text-transform="uppercase"
-          >
+          <mj-text mj-class="benefit-title">
             No standing <br class="mobile-hide" />in line
             <br class="mobile-hide" />for local sim
           </mj-text>
@@ -750,7 +537,7 @@
       <!-- END of Benefits -->
 
       <!-- START of Subscribe Now -->
-      <mj-section padding="25px 15px 0">
+      <mj-section padding="50px 15px 0">
         <mj-group>
           <mj-column width="100%">
             <mj-image
